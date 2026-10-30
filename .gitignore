@@ -1,0 +1,19 @@
+# Build output
+target/
+*.class
+
+# Maven wrapper downloads (the wrapper is script-only)
+.mvn/wrapper/maven-wrapper.jar
+
+# Local Kafka Streams state (STATE_DIR default)
+/state/
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.DS_Store
+*.log
